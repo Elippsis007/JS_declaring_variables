@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Declaring Variables</title>
+</head>
+
+<body>
+    <script>
+        var score;      //Declaration
+        score = 1000;   //Initialization
+        var age = 38;   //Combined Declaration & Initialization
+
+        function outputVars() {
+            document.getElementById("output").innerHTML = "Score: " + score + " Age: " + age;
+        }
+
+    </script>
+    <p id="output"></p>
+    <button onclick="outputVars()">Output</button>
+</body>
+
+</html>
